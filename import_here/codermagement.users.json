@@ -1,0 +1,73 @@
+[{
+  "_id": {
+    "$oid": "648aacc38ad815f6ddbd44aa"
+  },
+  "name": "user0",
+  "role": "manager",
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-06-14T10:00:00.706Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-14T10:00:00.706Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c2fe306e4d47f7d901051"
+  },
+  "name": "user1",
+  "role": "employee",
+  "tasks": [],
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-06-16T09:48:19.488Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T09:48:19.488Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c300d06e4d47f7d901056"
+  },
+  "name": "user2-updated",
+  "role": "employee",
+  "tasks": [
+    {
+      "$oid": "648c304806e4d47f7d90105b"
+    },
+    {
+      "$oid": "648c306206e4d47f7d901060"
+    },
+    {
+      "$oid": "648c720aea308b13cb7b1889"
+    }
+  ],
+  "isDeleted": false,
+  "createdAt": {
+    "$date": "2023-06-16T09:49:01.858Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T14:43:01.160Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "648c74fedd59c87753a8db03"
+  },
+  "name": "user99",
+  "role": "employee",
+  "tasks": [],
+  "isDeleted": true,
+  "createdAt": {
+    "$date": "2023-06-16T14:43:10.970Z"
+  },
+  "updatedAt": {
+    "$date": "2023-06-16T14:43:16.939Z"
+  },
+  "__v": 0
+}]

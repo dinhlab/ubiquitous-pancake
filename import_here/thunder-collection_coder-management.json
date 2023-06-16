@@ -1,0 +1,169 @@
+{
+    "client": "Thunder Client",
+    "collectionName": "coder-management",
+    "dateExported": "2023-06-16T14:44:25.188Z",
+    "version": "1.1",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "3f991f18-c7a8-4d17-9d40-e44a8c302595",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "create user",
+            "url": "http://localhost:3002/users/",
+            "method": "POST",
+            "sortNum": 5000,
+            "created": "2023-06-16T06:59:50.198Z",
+            "modified": "2023-06-16T14:42:42.412Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"user99\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "fb5de50a-d866-498a-ad15-1d2d5b8debb4",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "get all users",
+            "url": "http://localhost:3002/users",
+            "method": "GET",
+            "sortNum": 10000,
+            "created": "2023-06-16T06:57:49.421Z",
+            "modified": "2023-06-16T06:58:06.083Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "1f2e6f36-e706-4fcd-8f14-1e53a32b0064",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "get user by id",
+            "url": "http://localhost:3002/users/648c300d06e4d47f7d901056",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-06-16T06:58:12.461Z",
+            "modified": "2023-06-16T09:49:09.233Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "79bc0b2d-c624-435c-b0f6-893ec16af1b2",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "update user",
+            "url": "http://localhost:3002/users/648c300d06e4d47f7d901056",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2023-06-16T06:59:47.772Z",
+            "modified": "2023-06-16T09:49:14.707Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"user2-updated\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "e3dec4f9-e61c-4d18-96d2-800581cd25f3",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "soft delete user",
+            "url": "http://localhost:3002/users/648c74fedd59c87753a8db03",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2023-06-16T07:41:47.132Z",
+            "modified": "2023-06-16T14:43:16.947Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "18cec0a9-2d17-4137-9a05-41f9345bfb1a",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "create task",
+            "url": "http://localhost:3002/tasks/",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2023-06-16T07:56:40.799Z",
+            "modified": "2023-06-16T14:36:19.805Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\": \"task 3\",\n  \"description\": \"doing task 3, user2\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "027c83bf-bce1-4eba-9405-4b4e12c27fca",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "get all tasks",
+            "url": "http://localhost:3002/tasks/",
+            "method": "GET",
+            "sortNum": 60000,
+            "created": "2023-06-16T07:59:07.850Z",
+            "modified": "2023-06-16T07:59:34.907Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "4e2e757e-1af1-4189-89be-3b4df830049c",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "get task by id",
+            "url": "http://localhost:3002/tasks/648c306206e4d47f7d901060",
+            "method": "GET",
+            "sortNum": 70000,
+            "created": "2023-06-16T08:09:57.559Z",
+            "modified": "2023-06-16T09:50:47.558Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        },
+        {
+            "_id": "44001312-1da1-4de6-93f7-357842d34030",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "update task",
+            "url": "http://localhost:3002/tasks/648c720aea308b13cb7b1889",
+            "method": "PUT",
+            "sortNum": 80000,
+            "created": "2023-06-16T08:10:22.177Z",
+            "modified": "2023-06-16T14:42:14.864Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"description\": \"update task 3\",\n  \"assignedTo\":\"648c300d06e4d47f7d901056\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "6dfbe9d9-9af0-49dc-a132-53ac7877c746",
+            "colId": "0328129d-b514-4cbe-b8b1-baa167f1e163",
+            "containerId": "",
+            "name": "soft delete task",
+            "url": "http://localhost:3002/tasks/648c749ddd59c87753a8daf4",
+            "method": "DELETE",
+            "sortNum": 90000,
+            "created": "2023-06-16T08:11:47.561Z",
+            "modified": "2023-06-16T14:41:44.984Z",
+            "headers": [],
+            "params": [],
+            "tests": []
+        }
+    ]
+}
